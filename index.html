@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-44CE7ERFFC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-44CE7ERFFC');
+    </script>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/presentation.css">
+    <link rel="stylesheet" href="public/css/skills.css">
+    <link rel="stylesheet" href="public/css/projects.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <link rel="stylesheet" href="public/css/loader.css">
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="JS/bootstrap.js">
+    <script src="https://kit.fontawesome.com/541e3aaea2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfolio</title>
+
+
+</head>
+
+<body style="width: 100%;">
+    <div class='spinner-wrapper'>
+        <div class="spinner"></div>
+    </div>
+    <!-- first view -->
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="./public/images/logo.svg" loading="lazy"></a>
+            <ul>
+                <li><a href="#ancre1">À propos</a></li>
+                <li><a href="#ancre2">Compétences</a></li>
+                <li><a href="#ancre3">Projets</a></li>
+                <li><a href="#ancre4">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Poste recherché : <br> <span id="typed"></span> </h2>
+                <p><span class="firstletter">J</span>e m'appelle Kevin RAJANANTHAN, passionné par le web, je conçois et
+                    code des choses très simples et j'aime ce que je fais. Mon objectif est de faire en sorte que le
+                    design de l'application soit en corrélation avec ce qu'a prévu le web designer en amont.</p>
+                <a href="#ancre2">Plus d'infos</a>
+            </div>
+            <div class="imgBox">
+                <img src="./public/images/profil.png" width="350px" loading="lazy">
+            </div>
+        </div>
+        <!-- <ul class="thumb">
+             <li><img src="stylisme.png" width="230px"></li>
+             <li><img src="stylisme.png" width="230px"></li>
+             <li><img src="stylisme.png" width="230px"></li>
+         </ul> -->
+        <ul class="sci">
+            <li><a href="https://www.linkedin.com/in/kevin-rajananthan/" target="_blank"><i class="fab fa-linkedin-in"
+                        style="font-size: 50px ; color: black"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f" style="font-size: 50px ; color: black"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g" style="font-size: 50px ; color: black"></i></a></li>
+        </ul>
+    </section>
+    <!-- end first view -->
+
+
+
+    <!-- About me -->
+    <div id="ancre1" class="imagepropos">
+        <img src="./public/images/me.PNG" loading="lazy">
+    </div>
+    <div class="globaldiv">
+        <article class="container">
+            <div class="box">
+                <div class="imgBox2">
+                    <img src="./public/images/imgprofil.png" loading="lazy">
+                </div>
+                <div class="content">
+                    <h2>Rajananthan kevin<br><span>Developpeur front-end</span></h2>
+                </div>
+            </div>
+        </article>
+        <article class="container2">
+            <p class="text1">Je suis un peu accro aux produits numériques. Depuis mon enfance, j'ai utilisé des
+                centaines d'applications Web et mobiles dans différents secteurs. Finalement, j'ai décidé que ce serait
+                un défi amusant d'essayer de concevoir et de construire le mien.En outre mon hobby est devenu mon
+                travail
+            </p>
+            <p class="text1">Actuellement, je recherche un poste de développeur front-end et designer, dans le but de
+                mettre en œuvre mes compétences pour résoudre vos problèmes. De plus, je suis enthousiaste à l'idée de
+                partager mes expériences et de discuter de mes compétences avec vous.
+            </p>
+        </article>
+    </div>
+    <!-- end About me -->
+
+    <!-- skills -->
+    <div id="ancre2" class="imageskill">
+        <img src="./public/images/skills.PNG" loading="lazy">
+    </div>
+
+    <div class="containercarousel">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner vraicarousel" style="border-radius: 40px;">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="./public/images/diap1.png" class="d-block w-100" style="width:100%;" alt="..."
+                        loading="lazy">
+                </div>
+                <div class="carousel-item" data-interval="10000">
+                    <img src="./public/images/diap2.png" class="d-block w-100" style="width:100%;" alt="..."
+                        loading="lazy">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end skill -->
+
+    <!-- project -->
+    <div id="ancre3" class="imagesprojects">
+        <img src="./public/images/projects.PNG" loading="lazy">
+    </div>
+
+
+    <div class="container3">
+
+        <div class="cardox">
+            <div class="circlox">
+                <h2>1</h2>
+            </div>
+            <div class="content2">
+                <p> <span style="color: black; font-weight: bold; ">IABAKO</span>: Maquettage et développement d'une application de facturation et gestion de stock dédié aux TPE.
+                    <span style="color: white">vel? Quis neque molestias dolorum ea maiores</span>
+                </p>
+                <a class="but" onclick="togglePopup5()">Voir plus</a>
+            </div>
+        </div>
+
+        <div class="cardox">
+            <div class="circlox">
+                <h2>2</h2>
+            </div>
+            <div class="content2">
+                <p style="margin-top:20px;"><span style="color: black; font-weight: bold; ">Wikipédia & Zemus</span>: Maquettage et développement d'une application permettant de découvrir les thématiques autour de vous (aéroport, capital,commerces etc)</p>
+
+                <a onclick="togglePopup3()">Voir plus</a>
+            </div>
+        </div>
+
+        <div class="cardox">
+            <div class="circlox">
+                <h2>3</h2>
+            </div>
+            <div class="content2">
+                <p style="margin-top:20px;"><span style="color: black; font-weight: bold; ">Eyonos</span>: Développement d'un site vitrine pour une agence web <span style="color: white">dvsvsfsffsffdsfsfsfs seffrfsfsfsfsfesfsfsfsfsfsfsf seffsfsfsfsfsfesfsfsfsef sedfsfsfsdfsdfsdfsdf</span></p>
+                <a onclick="togglePopup2()">Voir plus</a>
+            </div>
+        </div>
+
+        <div class="cardox">
+            <div class="circlox">
+                <h2>4</h2>
+            </div>
+            <div class="content2">
+                <p><span style="color: black; font-weight: bold; ">Qwant</span>: Explorez ce projet présenté par le renommé moteur de recherche Qwant.
+                    <span
+                        style="color: white">Lorem ipsum, dolor sit amet consectetur adipisicing elit fghfthtr drfg sde </span></p>
+                </p>
+                <a onclick="togglePopup4()">Voir plus</a>
+            </div>
+        </div>
+
+
+        <div class="cardox">
+            <div class="circlox">
+                <h2>5</h2>
+            </div>
+            <div class="content2">
+                <p><span style="color: black; font-weight: bold; ">Facebook</span>: Découvrez ce projet personnel que j'ai pu réaliser sur le célébre réseau social Facebook
+                    <span style="color: white">dolorum ea maiores quia ex quas deleniti! Ipsam
+                        numquam illo officiis.</span>
+                </p>
+                <a class="but" onclick="togglePopup1()">Voir plus</a>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- modals1 -->
+        <div class="popup" id="popup-1">
+            <div class="overlayox"></div>
+            <div class="contentox">
+                <div class="close-btn" onclick="togglePopup1()">&times;</div>
+                <h2>Facebook Clone</h2>
+                <p><span style="color:#017143;font-size:40px;font-weight:500;">R</span>éalisation d'un clone de Facebook
+                    avec Reactjs pour stocker les différents posts et aussi pour effectuer une authentification avec
+                    Google par l'intermediaire de Firbase</p>
+                <p style="text-decoration: underline;">Technologies utilisées au cours de ce projet</p>
+                <div class="langages">
+                    <p> ReactJs (Html, Css) </p>
+                    <p>70%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="70" style="width: 70%"></div>
+                </div>
+                <div class="langages">
+                    <p> Firebase + Auth Google </p>
+                    <p>30%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%"></div>
+                </div>
+                <p style="text-decoration: underline;margin-top: 20px;">Démo du projet</p>
+                <video width="100%" controls class="Video__">
+                    <source src="./public/videos/fbclone1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- modals2 -->
+        <div class="popup" id="popup-2">
+            <div class="overlayox"></div>
+            <div class="contentox">
+                <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                <h1>EYONOS</h1>
+                <p><span style="color:#017143;font-size:40px;font-weight:500;">J</span>'ai récemment eu l'opportunité de concevoir un site vitrine sur mesure pour un client avec le framework NextJs, et il s'avère que ce client est en fait une agence web spécialisée. Mon travail a consisté à collaborer étroitement avec cette agence pour comprendre leurs besoins spécifiques, leurs préférences en matière de conception et les fonctionnalités essentielles à intégrer dans le site. Ensuite, j'ai utilisé mes compétences en développement front-end pour créer un site web qui correspondait parfaitement à leurs attentes, en mettant en avant leur expertise et leur portefeuille de projets de manière efficace et esthétique. 
+                </p>
+                <p style="text-decoration: underline;">Technologies utilisées au cours de ce projet</p>
+                <div class="langages">
+                    <p> Front-end/NextJs </p>
+                    <p>100%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="50" style="width: 100%"></div>
+                </div>
+                <p style="text-decoration: underline;margin-top: 20px;">Démo du projet</p>
+                <div style="height: 300px;">
+                    <video width="100%" height="100%" controls class="Video__">
+                        <source src="./public/videos/eyonos1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- modals3 -->
+        <div class="popup" id="popup-3">
+            <div class="overlayox"></div>
+            <div class="contentox">
+                <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                <h1>WikiWay</h1>
+                <p><span style="color:#017143;font-size:40px;font-weight:500;">J</span>'ai conçu la maquette de
+                    l'application mobile WikiWay from scratch à partir d'un cahier des charges qui m'a été attribué par
+                    Wikipédia. L'application mobile a pour vocation d’accompagner l’utilisateur (qu’il soit conducteur,
+                    passager ou piéton) dans ses trajets quotidiens ou ses déplacements occasionnels, afin de lui offrir
+                    de nouvelles possibilités de s’instruire grâce à la géolocalisation du téléphone. 
+                    Pour la partie Front-end
+                    de l'application mobile, j'ai utilisé React Native. Quant à la partie back-end elle a été conçu en
+                    Flask(Python).</p>
+
+                <p>L'application mobile est disponible sur le store Android et IOS</p>    
+
+                <p style="text-decoration: underline;margin-top: 10px;">Technologies utilisées au cours de ce projet</p>
+
+                <div class="langages">
+                    <p> Maquette/Figma </p>
+                    <p>100%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+
+
+                <div class="langages">
+                    <p> Front-end/ReactNative </p>
+                    <p>50%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%"></div>
+                </div>
+
+                <div class="langages">
+                    <p> Back-end/Flask </p>
+                    <p>50%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%"></div>
+                </div>
+                <p style="text-decoration: underline;margin-top: 20px;">Démo du projet</p>
+                <video width="100%" height="300" controls class="Video__">
+                    <source src="./public/videos/WikiWay1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- modals4 -->
+        <div class="popup" id="popup-4">
+            <div class="overlayox"></div>
+            <div class="contentox">
+                <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                <h1>Qwant</h1>
+                <p><span style="color:#017143;font-size:40px;font-weight:500;">P</span>rojet proposé par Qwant lors
+                    d'une semaine de "CodeCamp", l'objectif était de refaire le front de la page
+                    actualité de Qwant ainsi que la connexion avec l'api de Qwant</p>
+                <p style="text-decoration: underline;">Technologies utilisées au cours de ce projet</p>
+                <div class="langages">
+                    <p> Front-end/Html-CSS (template Express) </p>
+                    <p>50%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%"></div>
+                </div>
+                <div class="langages">
+                    <p> Back-end/NodeJs</p>
+                    <p>50%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%"></div>
+                </div>
+
+                <p style="text-decoration: underline;margin-top: 20px;">Démo du projet</p>
+                <img src="./public/images/qwant.png" loading="lazy" width="100%" />
+
+            </div>
+        </div>
+
+                <!-- modals5 -->
+                <div class="popup" id="popup-5">
+                    <div class="overlayox"></div>
+                    <div class="contentox">
+                        <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                        <h1>IABAKO</h1>
+                        <p><span style="color:#017143;font-size:40px;font-weight:500;">J</span>'ai élaboré la maquette et assuré le développement de l'interface front-end de l'application mobile IABAKO à partir de zéro, suite à la réception d'un cahier des charges attribué par l'équipe d'IABAKO. Cette application mobile, conçue pour simplifier les opérations quotidiennes des PME et TPE, notamment la gestion des factures, des devis, des bons de commande et le suivi des livraisons, est disponible tant sur les plateformes Android que iOS.</p>
+                        <p style="text-decoration: underline;">Technologies utilisées au cours de ce projet</p>
+                        <div class="langages">
+                            <p> Maquette/Figma </p>
+                            <p>100%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                        </div>
+                        <div class="langages">
+                            <p> Front-end/ReactNative</p>
+                            <p>50%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%"></div>
+                        </div>
+                        <div class="langages">
+                            <p>Spring Boot</p>
+                            <p>50%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%"></div>
+                        </div>
+        
+                        <p style="text-decoration: underline;margin-top: 20px;">Démo du projet</p>
+                        <video width="100%" height="300" controls class="Video__">
+                            <source src="./public/videos/iabako1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+    </div>
+    <!-- end project -->
+
+    <!-- footer -->
+    <footer id="ancre4">
+
+
+        <div class="sec aboutus">
+            <h2>Informations</h2>
+            <p>Développeur Web front, je suis à votre disposition pour répondre à tout type de projets de création de
+                sites internet, de développement spécifique ou d'applications web.
+                Passionné par les technologies liées au Web, je mets mes compétences au service de vos besoins dans
+                divers domaines.</p>
+        </div>
+
+
+
+        <div class="sec contact">
+            <h2 class="contactezmoi">Contactez-Moi</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <p class="textcontact">Paris, 18ème arrondissement</p>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <p class="textcontact"><a href="#" style="color:white">06.49.73.24.78</a></p>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <p class="textcontact"><a href="#" style="color:white">rajananthan.kevin@protonmail.ch</a></p>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+    <!-- end-footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Copyright 2021 Kevin RAJANANTHAN. All Rights Reserved</p>
+    </div>
+
+
+    <!-- end-Copyright -->
+
+
+
+
+
+
+    <script type="text/javascript" src="./JS/scroll.js"></script>
+
+    <script type="text/javascript">
+
+        let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+        window.addEventListener('load', function () {
+            // spinnerWrapper.style.display = 'none';
+            spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        });
+
+        var typed = new Typed('#typed', {
+            strings: ["Développeur Front-end"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true,
+            showCursor: true
+
+        })
+
+        function togglePopup1() {
+            document.getElementById("popup-1").classList.toggle("active");
+        }
+        function togglePopup2() {
+            document.getElementById("popup-2").classList.toggle("active");
+        }
+        function togglePopup3() {
+            document.getElementById("popup-3").classList.toggle("active");
+        }
+        function togglePopup4() {
+            document.getElementById("popup-4").classList.toggle("active");
+        }
+        function togglePopup5() {
+            document.getElementById("popup-5").classList.toggle("active");
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>

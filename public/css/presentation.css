@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+
+.imagepropos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.imagepropos img {
+    width: 30%;
+}
+.globaldiv{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    border-color: 1px solid black;
+    
+}
+
+.container .box .imgBox2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+    border: 2px solid black;
+
+}
+
+.container .box:hover .imgBox2{
+    transform: translate(-35px,-35px);
+}
+
+.container .box .imgBox2 img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.container .box  .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 8px;
+    transition: 0.5s ease-in-out;
+    background-color: #017143;
+    border: 2px solid white;
+    
+}
+
+.container .box:hover .content{
+    transform: translate(35px,35px);
+}
+
+.container .box  .content h2{
+    font-size: 14px;
+    color: #FFFF;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+}
+.container .box  .content h2 span{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.firstletter{
+    color: #017143;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container2{
+    max-width: 700px;
+    margin-left: 20px;
+
+}   
+.text1{
+    color:#333;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+@media all and (max-width: 835px)
+{
+
+
+    .imagepropos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        
+    }
+    .imagepropos img {
+        width: 70%;
+    }
+    .globaldiv{
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .container .box
+    {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: 40px;
+        border-color: 1px solid black;
+        
+    }
+    
+    .container .box .imgBox2
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+        z-index: 2;
+        border: 2px solid black;
+    
+    }
+    
+    .container .box:hover .imgBox2{
+        transform: translate(-35px,-35px);
+    }
+    
+    .container .box .imgBox2 img
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .container .box  .content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 1;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 8px;
+        transition: 0.5s ease-in-out;
+        background-color: #017143;
+        border: 2px solid white;
+        
+    }
+    
+    .container .box:hover .content{
+        transform: translate(35px,35px);
+    }
+    
+    .container .box  .content h2{
+        font-size: 12px;
+        color: #FFFF;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+    .container .box  .content h2 span{
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    .firstletter{
+        color: #017143;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .container2{
+        max-width: 700px;
+        margin-left: 20px;
+    
+    }   
+    .text1{
+        color:#333;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    
+}
+
+
+@media (max-width: 768px){
+
+.container .box:hover .content{
+    transform: translate(0,35px);
+}
+
+.container .box:hover .imgBox2{
+    transform: translate(0,-35px);
+}
+
+
+
+
+}
+
+
+
+
+
+

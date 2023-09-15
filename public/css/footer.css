@@ -1,0 +1,112 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #017143;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer .sec{
+    margin-right: 30px ;
+    
+}
+
+footer .sec.aboutus{
+    width: 40%;
+}
+footer .sec.aboutus h2{
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .sec.aboutus p{
+    color: #fff
+}
+
+
+
+.sec.contact h2{
+    margin-bottom: 30px;
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact .info  li
+{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1){ 
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.contact ul li{
+    list-style: none;
+    
+}
+
+.contact ul li a{
+   text-decoration: none;
+    
+}
+
+.copyright{
+    width: 100%;
+    height: auto;
+    padding: 8px 100px;
+    text-align: center;
+    background-color: #017143;
+}
+
+.textcontact{
+    color:#fff
+}
+
+@media all and (max-width: 835px)
+{
+
+    footer{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 50px 30px;
+        background-color: #017143;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer .sec.aboutus{
+        width: 100%;
+    }
+
+    .contact .info li span:nth-child(1){ 
+        color: #fff;
+        font-size: 15px;
+        margin-right: 10px;
+    
+    }
+    footer .sec.contact{
+        width: 100%;
+    }
+}
+  
+    
+
+
+
+
+
